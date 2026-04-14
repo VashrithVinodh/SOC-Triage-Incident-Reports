@@ -32,6 +32,7 @@ Self-hosted Elasticsearch, Logstash, and Kibana environment built from scratch. 
 |---|-------|-----------|--------------|---------|
 | 1 | SOC176 - RDP Brute Force Detected | Brute Force + Remote Desktop | T1110.001, T1021.001 | Successful |
 | 2 | SOC165 - Possible SQL Injection Payload Detected | Exploitation of Public-Facing Application | T1190 | Unsuccessful |
+| 3 | SOC335 - CVE-2024-49138 Exploitation Detected | Brute Force + Remote Desktop + Privlige Escalation | T1110.001, T1021.001 | Successful |
 
 ### ELK Stack
 
